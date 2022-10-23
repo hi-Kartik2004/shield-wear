@@ -3050,6 +3050,11 @@ textarea.w-select {
 }
 
 .navbar-no-shadow-container-4 {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
   z-index: 5;
   width: 100%;
   max-width: 1140px;
@@ -3254,10 +3259,7 @@ textarea.w-select {
 .loader {
   position: absolute;
   z-index: 1000000000000000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: hidden;
   margin-left: 0vw;
   -webkit-box-pack: center;
@@ -4453,7 +4455,7 @@ textarea.w-select {
 }
 
 .main {
-  display: none;
+  display: block;
   overflow: visible;
   margin-left: 0vw;
   padding-left: 0vw;
@@ -4884,6 +4886,11 @@ textarea.w-select {
 
 .success-message {
   border-radius: 6px;
+}
+
+.div-block-2 {
+  height: 3px;
+  background-color: #fff;
 }
 
 @media screen and (min-width: 1440px) {
