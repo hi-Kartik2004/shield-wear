@@ -1,5 +1,5 @@
 /*!
-      Function naming successfully changed 000webhost
+        Function naming successfully changed 000webhost
  */ 
 !(function (t) {
   var e = {};
@@ -4716,27 +4716,6 @@
     "use strict";
     var r = window.$,
       i = n(69) && r.tram;
-    /*!
-     * Webflow._ (aka) Underscore.js 1.6.0 (custom build)
-     * _.each
-     * _.map
-     * _.find
-     * _.filter
-     * _.any
-     * _.contains
-     * _.delay
-     * _.defer
-     * _.throttle (webflow)
-     * _.debounce
-     * _.keys
-     * _.has
-     * _.now
-     *
-     * http://underscorejs.org
-     * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-     * Underscore may be freely distributed under the MIT license.
-     * @license MIT
-     */
     t.exports = (function () {
       var t = { VERSION: "1.6.0-Webflow" },
         e = {},
@@ -12377,6 +12356,37 @@ Webflow.require("ix2").init({
       },
       createdOn: 1666516710536,
     },
+    "e-43": {
+      id: "e-43",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "PAGE_SCROLL",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-13", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+        id: "63483bb1c0bc6f4dbdd2e9cd",
+      },
+      targets: [],
+      config: [
+        {
+          continuousParameterGroupId: "a-13-p",
+          smoothing: 50,
+          startsEntering: true,
+          addStartOffset: false,
+          addOffsetValue: 50,
+          startsExiting: false,
+          addEndOffset: false,
+          endOffsetValue: 50,
+        },
+      ],
+      createdOn: 1666538072668,
+    },
   },
   actionLists: {
     "a-2": {
@@ -12932,6 +12942,62 @@ Webflow.require("ix2").init({
       ],
       useFirstGroupAsInitialState: false,
       createdOn: 1666423489857,
+    },
+    "a-13": {
+      id: "a-13",
+      title: "progress-bar-animation",
+      continuousParameterGroups: [
+        {
+          id: "a-13-p",
+          type: "SCROLL_PROGRESS",
+          parameterLabel: "Scroll",
+          continuousActionGroups: [
+            {
+              keyframe: 0,
+              actionItems: [
+                {
+                  id: "a-13-n",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      id: "63483bb1c0bc6f4dbdd2e9cd|e6cf5b7c-4fd4-9f0b-5f86-3d31700e6d6a",
+                    },
+                    widthValue: 0,
+                    widthUnit: "%",
+                    heightUnit: "PX",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-13-n-2",
+                  actionTypeId: "STYLE_SIZE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    locked: false,
+                    target: {
+                      id: "63483bb1c0bc6f4dbdd2e9cd|e6cf5b7c-4fd4-9f0b-5f86-3d31700e6d6a",
+                    },
+                    widthValue: 100,
+                    widthUnit: "%",
+                    heightUnit: "PX",
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1666538076616,
     },
     fadeIn: {
       id: "fadeIn",
