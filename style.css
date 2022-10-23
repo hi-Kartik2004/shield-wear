@@ -3259,7 +3259,10 @@ textarea.w-select {
 .loader {
   position: absolute;
   z-index: 1000000000000000;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
   margin-left: 0vw;
   -webkit-box-pack: center;
@@ -4455,7 +4458,7 @@ textarea.w-select {
 }
 
 .main {
-  display: block;
+  display: none;
   overflow: visible;
   margin-left: 0vw;
   padding-left: 0vw;
