@@ -1,6 +1,7 @@
 /*!
       Function naming successfully changed 000webhost
- */ !(function (t) {
+ */ 
+!(function (t) {
   var e = {};
   function n(r) {
     if (e[r]) return e[r].exports;
