@@ -1,4 +1,4 @@
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -2150,7 +2150,7 @@ textarea.w-select {
   overflow: visible;
   max-height: 100vh;
   max-width: 98.8%;
-  padding-left: 0%;
+  /* padding-left: 1%; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2796,7 +2796,7 @@ textarea.w-select {
   overflow: hidden;
   height: 80vh;
   padding-top: 15vh;
-  padding-left: 2.7vw;
+  padding-left: 4vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -3277,10 +3277,7 @@ textarea.w-select {
 .loader {
   position: absolute;
   z-index: 1000000000000000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: hidden;
   margin-left: 0vw;
   -webkit-box-pack: center;
@@ -4484,7 +4481,7 @@ textarea.w-select {
 }
 
 .main {
-  display: none;
+  display: block;
   overflow: visible;
   margin-left: 0vw;
   padding-left: 0vw;
