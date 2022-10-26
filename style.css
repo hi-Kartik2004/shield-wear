@@ -2149,7 +2149,7 @@ textarea.w-select {
   display: flex;
   overflow: visible;
   max-height: 100vh;
-  max-width: 98.8%;
+/*   max-width: 98.8%; */
   /* padding-left: 1%; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
